@@ -40,9 +40,11 @@ $(window).load(function() {
     map.setView([43.076364, -89.384336], 13);
 
       $(document).foundation('joyride', 'start');
+      $("#audioText").remove();
     }
     else{
       map.setView([43.076364, -89.384336], 14);
+
     }
 
  })
@@ -76,9 +78,11 @@ var switchElements = function (width,height,screen,pos){
   // if it is larger than mid breakpoint
   if(width> midBreakPoint){
    map.attributionControl.setPosition('bottomright');
+
     }
     else{
    map.attributionControl.setPosition('topright');
+   $("#audioText").remove();
     }
 
 }
