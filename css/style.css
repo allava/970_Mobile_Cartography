@@ -15,6 +15,13 @@ body {
   height: 100%;
   width: 100%;
 }
+#audioText {
+  color: #fff;
+}
+#audioText p{
+  margin: 1em 2em 0 2em;
+}
+
 /*--------------- Audio ----------------*/
   audio {
       position: relative;
